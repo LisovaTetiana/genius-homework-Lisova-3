@@ -192,7 +192,7 @@ color: var(--color-primary-light);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 91px;
+  margin-left: 106px;
   margin-right: auto;
   padding-top: 120px;
 }
@@ -298,9 +298,9 @@ transform: rotate(-180deg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin-top: -230px;
+  padding-top: 176px;
+  padding-bottom: 48px;
+  margin-top: -130px;
 }
 /*About Section*/
 .about-section {
@@ -495,12 +495,11 @@ transform: rotate(-180deg);
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
   align-items: center;
   background-color: var(--color-primary-dark);
   border-radius: 32px;
-    width: 423px;
-    height: 491px;
+    width: 422px;
+    height: 482px;
 }
 /*Footer*/
 .footer {
@@ -509,6 +508,7 @@ transform: rotate(-180deg);
   background-size: cover;
   background-position: center;
   padding: 56px 0;
+  margin-top: 48px;
   line-height: 1.18;
 }
 .footer::before {
@@ -583,6 +583,7 @@ gap: 32px;
   justify-content: center;
   padding: 20px 0;
   transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 10;
 }
 .modal {
   position: relative;
@@ -594,6 +595,7 @@ gap: 32px;
   height: 100%;
   max-height: 681px;
   overflow-y: auto;
+  
 }
 .modal-text {
   color: var(--color-primary-white);
