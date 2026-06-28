@@ -1,0 +1,106 @@
+.footer {
+    text-align: center;
+    position: relative;
+    background-color: var(--color-primary-dark);
+    background-size: cover;
+    background-position: center;
+    padding: 56px 0;
+    margin-top: -20px;
+    line-height: 1.18;
+    @media screen and (min-width: $bp-desktop) {
+    margin-top: 48px;
+    }
+   
+ &__logo-link {
+        text-decoration: none;
+    }
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    width: 247px;
+    height: 152px;
+    @media screen and (min-width: $bp-desktop) {
+    background-image: url('../imeges/photo-for-footer.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+      }
+ }  
+ &__container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    @media screen and (min-width: $bp-desktop) {
+            flex-direction: row;
+            flex-basis: 50%;            
+         }
+ }
+ &__nav,
+ &__address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media screen and (min-width: $bp-desktop) {
+        flex-direction: row;
+        flex-basis: 50%;
+        text-align: left;
+    }
+ }
+
+ &__logo,
+ &__menu,
+ &__contact {
+    flex-grow: 1;
+ }
+
+ &__icon {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 20px;
+   @media screen and (min-width: $bp-desktop){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 32px;
+ }
+ }
+ &__link {
+    margin-bottom: 16px;
+    color: var(--color-primary-white);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+ }
+ &__address-link {
+    margin-bottom: 16px;
+    color: var(--color-primary-white);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+ }
+
+ &__address-link:hover {
+    color: var(--color-secondary-light-2);
+ }
+
+ &__address-copyright {
+    margin-bottom: 16px;
+    color: var(--color-secondary-light-2);
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+}
+
+
+
+
+
+
+

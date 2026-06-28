@@ -1,0 +1,82 @@
+.hero-section {
+    background-image:
+            linear-gradient(94deg,
+                var(--color-primary-white) 9.65%,
+                rgba(255, 255, 255, 0.85) 26.08%,
+                rgba(255, 255, 255, 0.19) 52.74%,
+                rgba(255, 255, 255, 0) 74.46%),
+            url('../imeges/фон.svg');
+        background-repeat: no-repeat;
+        background-position:
+            left top,
+            right top;
+        background-size: 100% 100%,
+            contain;
+        padding: 14px 0 56px 0;
+       
+        @media screen and (min-width: 1200px) {
+                background-size:
+                    100% 100%,
+                    cover;
+                background-position:
+                        left top,
+                        right top;
+        padding: 14px 0 128px 0;}
+        @media screen and (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:
+                    linear-gradient(94deg,
+                        var(--color-primary-white) 9.65%,
+                        rgba(255, 255, 255, 0.85) 26.08%,
+                        rgba(255, 255, 255, 0.19) 52.74%,
+                        rgba(255, 255, 255, 0) 74.46%),
+                    url('../imeges/group 46196@2x.jpg');
+
+        }
+            
+        
+
+ &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 71px;
+    
+    
+    @media screen and (min-width: $bp-desktop) {
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 106px;
+        margin-right: auto;
+        padding-top: 120px;
+    }
+}    
+ &__title {
+        margin-bottom: 0;
+        color: var(--color-primary-light);
+        font-family: var(--second-family);
+        font-size: 54px;
+        line-height: 0.85;
+        text-transform: capitalize;
+        font-weight: 700;
+        white-space: nowrap;
+        @media screen and (min-width: $bp-desktop) {
+         font-size: 140px;  
+         line-height: 0.8;
+         white-space: normal;
+         max-width: 500px;
+                
+        }
+    }
+ &__about-logo {
+    margin-bottom: 16px;
+        
+ }
+ &__btn-subtitle {
+ margin-bottom: 14px;;
+}
+}
+
+

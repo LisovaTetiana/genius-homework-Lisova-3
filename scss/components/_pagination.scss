@@ -1,0 +1,17 @@
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: static !important;
+ &__bullet{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: var(--color-secondary-light-2);
+
+ &--active{
+    background-color: var(--color-primary-light);
+ }
+}
+}

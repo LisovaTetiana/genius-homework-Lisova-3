@@ -1,0 +1,41 @@
+.button {
+    background-color: var(--color-primary-light);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-primary-white);
+    border: 2px solid var(--color-primary-light);
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+&:hover {
+        color: var(--color-primary-dark);
+        background-color: transparent;
+        border-color: var(--color-primary-light);
+
+    }
+}
+
+.button1 {
+    width: 219px;
+    height: auto;
+    min-height: 53px;
+    transition: color 0.2s ease;
+    margin: 40px auto 14px auto;
+      @media screen and (min-width: $bp-desktop) {
+      margin: 40px 310px 14px 0;
+      }
+}
+.button2 {
+    width: 281px;
+    height: auto;
+    min-height: 53px;
+    margin: 16px 14.5px 8px 14.5px;
+    transition: color 0.2s ease;
+}
+
