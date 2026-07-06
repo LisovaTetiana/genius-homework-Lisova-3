@@ -1,6 +1,6 @@
 .form-terms {
     color: var(--color-secondary-light-2);
-    font-family: var(--font-family);
+    font-family: var(--font-family), sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
@@ -8,7 +8,7 @@
     margin: 0 auto;
  &__link {
     color: var(--color-primary-light-2);
-    font-family: var(--font-family);
+    font-family: var(--font-family), sans-serif;
     font-size: 12px;
     font-weight: 400;
     text-decoration: underline;
