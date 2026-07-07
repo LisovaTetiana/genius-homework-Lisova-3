@@ -43,13 +43,13 @@
     }
 
     &:hover {
-        transform: rotate(-180deg);
+        transform: rotateX(-180deg);
         & .production-cards__gradient {
         background: linear-gradient(180deg, rgba(1, 28, 68, 0) 47.4%, rgba(1, 28, 68, 0.9) 82.66%, #011c44 99.06%);
         }
 
         & .production-cards__title{
-        transform: rotate(180deg) translate(38px, 20px);
+        transform: rotateX(180deg) translate(-38px, 20px);
         }
     }
 }

@@ -99,7 +99,7 @@
     @media screen and (min-width: $bp-desktop) {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 172px;    
+    justify-content: flex-end;
       }
 } 
  &__address-link {
