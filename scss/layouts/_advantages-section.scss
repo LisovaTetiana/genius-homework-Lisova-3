@@ -10,7 +10,7 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $bp-desktop) {
      flex-direction: row;
      justify-content: center;
      align-items: center;

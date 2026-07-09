@@ -35,8 +35,7 @@
     display: block;
     flex-shrink: 0;
     border: none;
-    border-radius: 0;
-    margin: 0 -24px;
+    border-radius: 0;    
     width: calc(100% + 48px);
     height: 232px;
     
@@ -60,11 +59,14 @@
     align-items: center;
     background-color: var(--color-primary-dark);
     border-radius: 32px;
-    width: 320px;
-    height: 434px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 434px;
+    padding: 42px 24px;
     @media screen and (min-width: $bp-desktop) {
-            width: 422px;
-            height: 482px;
+           max-width: 422px;
+           min-height: 482px;
+           padding: 48px 56px;
     }
 }
 &__form--field {
